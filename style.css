@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 @font-face{
-    font-family:'Header';
+    font-family:'HeF';
     src: url(fontes/PassionOne-Regular.ttf) format(truetype);
 }
 
@@ -46,7 +46,7 @@ a{
 }
 
 .milton{
-    font-family: Header, cursive;
+    font-family: HeF, cursive;
     font-size: 1em;
     margin-top: 0px;
 }
@@ -130,7 +130,7 @@ main{
 }
 
 footer{
-    font-family: Header, cursive;
+    font-family: HeF, cursive;
     color: snow;
     background-color: black;
     padding: 5px;
