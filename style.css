@@ -108,7 +108,7 @@ main{
     background-image: url(imagens/background002.jpg);
     background-position: right center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
     height: 500px;
     max-width: 100%;
