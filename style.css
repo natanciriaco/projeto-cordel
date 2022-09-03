@@ -38,9 +38,9 @@ a{
 }
 
 .cordel{
-    font-family: HeF, cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: normal;
     margin-bottom: 0px;
 }
 
@@ -73,7 +73,6 @@ main{
     height: 500px;
     max-width: 100%;
     min-width: 320px;
-
 
     font-family: Estrofe, cursive;
     font-weight: bold;
