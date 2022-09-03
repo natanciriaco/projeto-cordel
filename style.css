@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:'Header';
+    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: Estrofe;
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*fonte header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*fonte estrofe*/
+
+
+body{
+    height: 100vh;
+    min-width: 100%;
+    margin: 0px;
+    min-width: 300px;
+}
+
+header{
+    height: 150px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.cordel{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+
+.milton{
+    font-family: Header, cursive;
+    font-size: 1em;
+    margin-top: 0px;
+}
+
+main{
+    font-family: Estrofe, cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;    line-height: 25px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.back01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+
+    font-family: Estrofe, cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    line-height: 25px;
+    text-align: left;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    
+}
+
+.text{
+    background-color: rgba(32, 32, 32, 0.384);
+    color: white;
+    height: 360px;
+    width: 300px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+.estrofe03{
+    margin-bottom: -125px;
+}
+
+
+.back02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+
+    font-family: Estrofe, cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    line-height: 25px;
+    text-align: left;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.estrofe06{
+    margin-bottom: -125px;
+}
+
+footer{
+    font-family: Header, cursive;
+    color: snow;
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+}
