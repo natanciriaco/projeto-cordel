@@ -38,9 +38,9 @@ a{
 }
 
 .cordel{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: HeF, cursive;
     font-size: 40px;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 0px;
 }
 
@@ -60,17 +60,20 @@ main{
     padding-bottom: 100px;
     padding-left: 20px;
     text-align: left;
+    min-width: 320px;
+
 }
 
 .back01{
     background-image: url(imagens/background001.jpg);
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 3px;
     height: 500px;
     max-width: 100%;
-    min-width: 300px;
+    min-width: 320px;
 
 
     font-family: Estrofe, cursive;
@@ -96,6 +99,8 @@ main{
     padding-left: 20px;
     padding-top: 3px;
     padding-bottom: 3px;
+    min-width: 320px;
+
     
 }
 
@@ -106,13 +111,14 @@ main{
 
 .back02{
     background-image: url(imagens/background002.jpg);
-    background-position: right center;
+    background-position: center center;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
+    padding: 3px;
     height: 500px;
     max-width: 100%;
-    min-width: 300px;
+    min-width: 320px;
 
 
     font-family: Estrofe, cursive;
