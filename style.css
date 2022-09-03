@@ -19,7 +19,6 @@ body{
     height: 100vh;
     min-width: 100%;
     margin: 0px;
-    min-width: 300px;
 }
 
 header{
@@ -71,6 +70,8 @@ main{
     background-repeat: no-repeat;
     height: 500px;
     max-width: 100%;
+    min-width: 300px;
+
 
     font-family: Estrofe, cursive;
     font-weight: bold;
@@ -111,6 +112,8 @@ main{
     background-repeat: no-repeat;
     height: 500px;
     max-width: 100%;
+    min-width: 300px;
+
 
     font-family: Estrofe, cursive;
     font-weight: bold;
