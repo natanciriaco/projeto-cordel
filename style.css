@@ -64,8 +64,7 @@ main{
 
 }
 
-.back01{
-    background-image: url(imagens/background001.jpg);
+.back{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -88,7 +87,10 @@ main{
     justify-content: left;
     align-items: center;
 
-    
+}
+
+#back01{
+    background-image: url(imagens/background001.jpg);
 }
 
 .text{
@@ -109,29 +111,8 @@ main{
 }
 
 
-.back02{
+#back02{
     background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 3px;
-    height: 500px;
-    max-width: 100%;
-    min-width: 320px;
-
-
-    font-family: Estrofe, cursive;
-    font-weight: bold;
-    font-size: 1.5em;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    line-height: 25px;
-    text-align: left;
-
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }
 
 .estrofe06{
