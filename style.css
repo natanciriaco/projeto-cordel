@@ -11,8 +11,7 @@
 }
 html,body{
     height: 100vh;
-    min-width: 100vh;
-    margin: 0px;
+    min-width: 320px;
 }
 
 header{
@@ -59,37 +58,35 @@ section{
     text-align: left;
 }
 
-.imagem{
+.back{
     background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     max-width: 100%;
-
-    display: flex;
-    justify-content: left;
-    align-items: center;
 }
 
 #back01{
     background-image: url(imagens/background001.jpg);
   }
 
-.insidetext{
-    display:inline-block;
-    padding: 5px;
-    background-color: rgba(32, 32, 32, 0.384);
-    color: white;
-    border-radius: 2px;
-    
-}
-
 #back02{
     background-image: url(imagens/background002.jpg);
 }
 
+.insidetext{
+    display:inline-block;
+    background-color: rgba(32, 32, 32, 0.5);  
+    color: white;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    border-radius: 2px;
+    
+}
+
 footer{
-    font-family: Header, cursive;
+    font-family: 'Passion One', cursive;
     color: snow;
     background-color: black;
     padding: 5px;
