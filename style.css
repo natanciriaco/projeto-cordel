@@ -1,34 +1,23 @@
 @charset "UTF-8";
 
-@font-face{
-    font-family:'HeF';
-    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
-}
-
-@font-face {
-    font-family: Estrofe;
-    src: url(fontes/Sriracha-Regular.ttf);
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*fonte header e footer*/
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*fonte header*/
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*fonte estrofe*/
 
 
-body{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
     height: 100vh;
-    min-width: 100%;
+    min-width: 100vh;
     margin: 0px;
 }
 
 header{
-    height: 150px;
-    border-top: 1px solid black;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
     background-color: black;
     color: white;
-    padding: 5px;
     text-align: center;
 }
 
@@ -37,90 +26,70 @@ a{
     color: white;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .cordel{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 40px;
+    font-family: 'Passion One', cursive;
+    font-variant: small-caps;
     font-weight: normal;
+    font-size: 5vw;
+    padding-top: 50px;
     margin-bottom: 0px;
 }
 
 .milton{
-    font-family: HeF, cursive;
-    font-size: 1em;
-    margin-top: 0px;
+    font-family: 'Passion One', cursive;
+    font-size: 1.5vw;
+    padding-bottom: 50px;
+    margin-top: 2px;
 }
 
-main{
-    font-family: Estrofe, cursive;
+section{
+    font-family: 'Sriracha', cursive;
+    font-size: 2.1vw;
     font-weight: bold;
-    font-size: 1.5em;
+    line-height: 2em;
     border-left: 1px solid black;
-    border-right: 1px solid black;   
-    line-height: 25px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 20px;
+    border-right: 1px solid black;  
+    padding-top: 10vh;  
+    padding-bottom: 10vh;
+    padding-left: 30px;
     text-align: left;
-    min-width: 320px;
-
 }
 
-.back{
-    background-position: center center;
+.imagem{
+    background-position: right center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 3px;
-    height: 500px;
     max-width: 100%;
-    min-width: 320px;
-
-    font-family: Estrofe, cursive;
-    font-weight: bold;
-    font-size: 1.5em;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    line-height: 25px;
-    text-align: left;
 
     display: flex;
     justify-content: left;
     align-items: center;
-
 }
 
 #back01{
     background-image: url(imagens/background001.jpg);
-}
+  }
 
-.text{
+.insidetext{
+    display:inline-block;
+    padding: 5px;
     background-color: rgba(32, 32, 32, 0.384);
     color: white;
-    height: 360px;
-    width: 300px;
-    padding-left: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    min-width: 320px;
-
+    border-radius: 2px;
     
 }
-
-.estrofe03{
-    margin-bottom: -125px;
-}
-
 
 #back02{
     background-image: url(imagens/background002.jpg);
 }
 
-.estrofe06{
-    margin-bottom: -125px;
-}
-
 footer{
-    font-family: HeF, cursive;
+    font-family: Header, cursive;
     color: snow;
     background-color: black;
     padding: 5px;
