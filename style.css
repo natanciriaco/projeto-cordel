@@ -64,6 +64,10 @@ section{
     background-repeat: no-repeat;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     max-width: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 #back01{
