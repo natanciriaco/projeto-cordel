@@ -15,8 +15,8 @@ html, body{
 
 header{
     font-family: 'Passion One', cursive;
-    background-color: black;
-    color: white;
+    background-color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 50px 0px;
 }
@@ -34,7 +34,7 @@ header{
 
 a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 header a:hover{
@@ -46,8 +46,8 @@ section{
     font-size: 1.5em;
     font-weight: bold;
     line-height: 2em;
-    border-left: 1px solid black;
-    border-right: 1px solid black;  
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;  
     padding: 10vh 0 10vh 30px;
     text-align: left;
 }
@@ -57,7 +57,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 13px #00000080;
     max-width: 100%;
 
     -webkit-background-size: cover;
@@ -82,17 +82,17 @@ section{
 .insidetext{
     display:inline-block;
     background-color: #20202080;  
-    color: white;
+    color: #ffffff;
     padding: 5px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px #000000;
     border-radius: 3px;
 }
 
 footer{
     font-family: 'Passion One', cursive;
     font-size: 1.1em;
-    color: snow;
-    background-color: black;
+    color: #fffafa;
+    background-color: #000000;
     padding: 5px;
     text-align: center;
 }
