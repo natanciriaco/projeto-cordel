@@ -14,24 +14,21 @@ html, body{
 }
 
 header{
+    font-family: 'Passion One', cursive;
     background-color: black;
     color: white;
     text-align: center;
+    padding: 50px 0px;
 }
 
 .cordel{
-    font-family: 'Passion One', cursive;
     font-size: 60px;
     font-variant: small-caps;
     font-weight: normal;
-    padding-top: 50px;
-    margin-bottom: 0px;
 }
 
 .milton{
-    font-family: 'Passion One', cursive;
-    font-size: 18px;
-    padding-bottom: 50px;
+    font-size: 20px;
     margin-top: 2px;
 }
 
@@ -40,7 +37,7 @@ a{
     color: white;
 }
 
-a:hover{
+header a:hover{
     text-decoration: underline;
 }
 
@@ -51,9 +48,7 @@ section{
     line-height: 2em;
     border-left: 1px solid black;
     border-right: 1px solid black;  
-    padding-top: 10vh;  
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding: 10vh 0 10vh 30px;
     text-align: left;
 }
 
@@ -62,7 +57,7 @@ section{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.5);
     max-width: 100%;
 
     -webkit-background-size: cover;
@@ -86,12 +81,11 @@ section{
 
 .insidetext{
     display:inline-block;
-    background-color: rgba(32, 32, 32, 0.5);  
+    background-color: #20202080;  
     color: white;
     padding: 5px;
-    text-shadow: 1px 1px 0px black;
-    border-radius: 2px;
-    
+    text-shadow: 2px 2px black;
+    border-radius: 3px;
 }
 
 footer{
@@ -101,4 +95,8 @@ footer{
     background-color: black;
     padding: 5px;
     text-align: center;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
