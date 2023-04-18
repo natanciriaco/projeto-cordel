@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*fonte header*/
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*fonte estrofe*/
@@ -7,8 +5,10 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
-html,body{
+
+html, body{
     min-height: 100vh;
     min-width: 400px;
 }
@@ -70,9 +70,15 @@ section{
     -o-background-size: cover;
 }
 
+@media (max-width: 767px) {
+    .back {
+        background-attachment: scroll;
+    }
+}
+
 #back01{
     background-image: url(imagens/background001.jpg);
-  }
+}
 
 #back02{
     background-image: url(imagens/background002.jpg);
